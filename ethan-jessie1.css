@@ -1,0 +1,107 @@
+*{
+
+  margin: 0;
+}
+
+body{
+  background-color: #A9D1E2;
+}
+
+nav{
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  padding: 10px;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+#left1{
+  font-family : Avenir Black;
+  font-size: 30px;
+  color: gray;
+  background-color: white;
+}
+
+#left2{
+  background-color: white;
+
+}
+
+#right{
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+  background-color: white;
+}
+
+h1{
+  color: #1B7092;
+  font-family : Avenir Black;
+  font-size: 40px;
+  background-color: white;
+  padding:10px;
+}
+
+h3{
+  background-color: #1B7092;
+  border-radius: 40px;
+  color: white;
+  font-family : Avenir Black;
+  padding:8px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+#pic1{
+  background-color: white;
+}
+
+#body{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 450px;
+  background-color: white;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+#pic2{
+  position: absolute;
+  height: 100px;
+  margin-top: 3%;
+  margin-left: 46%;
+  z-index: 2;
+}
+
+h4{
+  font-family : Avenir Black;
+  margin-top: 60px;
+  color: #1B7092;
+  font-size: 50px;
+  text-align: center;
+}
+
+#title{
+  background-color: #1B7092;
+  color: white;
+  padding: 10px;
+  margin-left: 60px;
+  width: 80px;
+  border-top-right-radius: 25px;
+}
+
+#item{
+  background-color: #A9D1E2;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 400px;
+  height: 60px;
+  margin-left: 60px;
+}
+#password{
+  margin-top: 50px;
+}
